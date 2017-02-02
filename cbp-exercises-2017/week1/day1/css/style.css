@@ -1,0 +1,66 @@
+body {
+	font: 400 1.2em/1.6 'Arima Madurai', sans-serif;
+
+}
+
+span {
+    color: red;
+    font-weight:bold;
+}
+
+h1 {
+	color: #741f82;
+	font: 800 2em 'Arima Madurai', sans-serif;
+}
+a {
+	font-weight:bold;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: line-through;
+}
+
+p {
+	color: rgba(0,0,0, 0.9);
+}
+
+span {
+	color: blue;
+}
+/*
+.red {
+	background-color: rgba(255,0,0,0.3);
+}
+
+.green {
+	background-color: rgba(0,255,0,0.3);
+}
+
+.blue {
+	background-color: rgba(0,0,255,0.3);
+}
+*/
+.red a, .green a {
+	color: red;
+}
+
+.blue a {
+	color: yellow;
+}
+
+li.seen {
+	text-decoration: line-through;
+}
+
+li.unseen {
+	font-weight: bold;
+}
+
+.good {
+	background-color: purple;
+}
+
+.bad {
+	background-color: #54301C;
+}

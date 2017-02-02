@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Javascript</title>
+
+  <style>
+    body {
+      font-family: Arial;
+      margin: 0;
+    }
+    #content {
+      background-color: #c7c7c7;
+      padding: 2em;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+    #mousepos {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        border: 1px solid black;
+        padding: 0.25em;
+    }
+        #toggle {
+    display: inline-block;
+    border-radius: 0.5em;
+    padding: 0.5em;
+    background-color: teal;
+    color: #ffffff;
+    cursor: pointer;
+}
+#toggle.clicked {
+    background-color: violet;
+}
+  </style>
+
+</head>
+
+<body>
+
+  <div id="content">
+
+    <h1 id="heading">A JavaScript playground</h1>
+
+    <div id="toggle">CLICK ME</div>
+
+    <p>Lorem ipsum dolor sit amet consectetuer cursus felis tortor mattis id. Enim urna mauris Sed pellentesque justo Suspendisse id Donec lacus elit. Molestie Nam tristique cursus ligula in et consequat Quisque auctor Aenean. Porttitor tincidunt consequat Sed est id sem Pellentesque aliquet nibh sed. Convallis dui risus netus ligula tellus ut justo libero eros convallis. Rutrum sem leo ac Mauris dictum consequat velit In Nulla est. Orci at et quis tortor consequat augue sit faucibus dignissim.</p>
+    <p>Laoreet semper Morbi tincidunt egestas In Sed facilisi libero Integer et. Faucibus wisi Vestibulum Praesent Vivamus id semper ante justo urna pretium. Ligula natoque hendrerit congue mauris amet et Vestibulum risus elit scelerisque. Diam Phasellus sed scelerisque in malesuada arcu neque Aliquam amet arcu. Tempor Aliquam et Nunc dui mauris ac laoreet condimentum tincidunt ut. Sit tellus sagittis dis cursus sollicitudin ornare volutpat augue vestibulum ut. Ligula Maecenas nibh interdum congue Sed quis et orci tristique dolor. Quis sem Nam nunc consequat nibh nisl non Curabitur et consectetuer. Consequat tristique hac.</p>
+
+  </div>
+  <button id="button"> Click me! </button>
+
+  <div id="mousepos">
+        <div>X: <span id="mousepos_x"></span></div>
+        <div>Y: <span id="mousepos_y"></span></div>
+    </div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  <script>
+
+   /* var heading = function(new_headline) {
+    var headline = document.getElementById('heading');
+    headline.innerHTML = new_headline;
+    };
+    heading('This is my playground!');
+
+    var changeText = function(id, text) {
+      document.getElementById(id).innerHTML = text;
+    }
+    changeText('heading', 'I want to play with DOM');
+
+  $('#button').on("mousemove", function(event) {
+    console.log("X position: "+event.pageX);
+    console.log("Y position: "+event.pageY);
+});
+
+    document.getElementById('button').onclick(function(event) {
+    console.log(event); 
+});
+    document.body.getElementById('button').addEventListener("mousemove", function(event) {
+    console.log("X position: "+event.pageX);
+    console.log("Y position: "+event.pageY);
+});
+
+    document.body.addEventListener('mousemove', function(event) {
+      document.getElementById('mousepos-x').innerHTML = event.pageX;
+      document.getElementById('mousepos-y').innerHTML = event.pageY;
+    });*/
+
+$('#toggle').on('click', function() {
+  $('#toggle').toggleClass('clicked');
+});
+
+
+  </script>
+</body>
+
+</html>

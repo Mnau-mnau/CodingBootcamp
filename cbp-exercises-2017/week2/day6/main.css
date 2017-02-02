@@ -1,0 +1,31 @@
+body {
+	font-family: 'Fira Sans', sans-serif;
+}
+
+header {
+	height:50px;
+	background-color: darkgrey;
+}
+
+main {
+	display: block;
+	margin:auto;
+	max-width:800px;
+}
+
+main p {
+	border-left: 3px solid lightblue;
+	padding-left: 10px;
+
+}
+
+main p:first-letter {
+	font-weight: bold;
+	font-size: 2em;
+	float:left;
+	padding-right: 5px;
+}
+
+ul li{ 
+	list-style-image: url('star.png');
+}

@@ -1,0 +1,35 @@
+Notes on coding bootcamp
+
+-links
+-important data
+-code snippets
+
+9.1. Introduction
+basic usage of the command line
+pwd, cd, mkdir, touch, ls
+
+html
+browser wars
+tags 
+img, p, span, div, head, body
+
+10.1. Html & CSS
+a href
+target attribute - opens link in a new tab
+
+Homework:
+
+1) http://www.drawingart.co - portfolio
+2) http://www.hermanmiller.com/products/seating/performance-work-chairs/aeron-remastered.html?utm_source=various&utm_medium=print&utm_campaign=rekindle&utm_content=remastered#/ home web shop
+3) https://whoopdedoo.cz/vitejte/ single product web
+4) http://apple.com/ forbes 500 I like
+http://maersk.com forbes 500 that is said to be really good and I quite like
+
+video cover snippet 
+
+<video autoplay loop class="fillWidth">
+            		<source src="Winter-Grass/Winter-Grass.mp4" type="video/mp4"/>Your browser does not support the video tag. I suggest you upgrade your browser.
+            		<source src="Winter-Grass/Winter-Grass.webm" type="video/webm"/>Your browser does not support the video tag. I suggest you upgrade your browser.
+        		</video>
+        <div class="poster hidden">
+            <img src="PATH_TO_JPEG" alt="">

@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAIA,uBAAK;EACD,MAAM,EAAE,iBAAqB;EAC7B,gBAAgB,EANR,OAAO;EAOf,OAAO,EAAC,SAAS;EACjB,KAAK,EAAC,IAAI;EACV,aAAa,EAAE,GAAG;EAClB,SAAS,EAAE,KAAK;;AAShB,yBAAiB;EACb,OAAO,EAAE,GAAG;EACZ,UAAU,EAAE,wCAAwC;EACpD,eAAe,EAAE,KAAK;EACtB,OAAO,EAAE,QAAQ",
+"sources": ["../sass/amessage.scss"],
+"names": [],
+"file": "amessage.css"
+}

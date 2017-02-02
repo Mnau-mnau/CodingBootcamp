@@ -1,0 +1,23 @@
+#first {
+	border: 1px solid black;
+	padding: 40px;
+	margin: 20px;
+}
+
+#second {
+	border: 10px dotted blue;
+	padding: 40px;
+	margin: 20px;
+}
+
+#third {
+	border: solid green;
+	border-width: 3px 1px 3px 0px;
+	padding: 40px;
+	margin: 20px;
+}
+
+body {
+	background-color: #ffffff;
+background-image: url("data:image/svg+xml,%3Csvg width='24' height='24' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Ctitle%3Ehoundstooth%3C/title%3E%3Cg fill='%23f0f0e4' fill-opacity='0.4' fill-rule='evenodd'%3E%3Cpath d='M0 18h6l6-6v6h6l-6 6H0M24 18v6h-6M24 0l-6 6h-6l6-6M12 0v6L0 18v-6l6-6H0V0'/%3E%3C/g%3E%3C/svg%3E");
+}

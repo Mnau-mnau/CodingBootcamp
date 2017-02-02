@@ -1,0 +1,39 @@
+* {	font-family: 'Arima Madurai', cursive;
+}
+
+h1 {
+	color: #741f82;
+}
+
+img {
+	width: 50%;
+	position: relative;
+	float: right;
+	margin:0px 20px 40px 40px;
+}
+p, h1, h2, h3, ul, ol{
+	margin: 20px;
+}
+
+.thumb {
+	width:20%;
+	position: relative;
+	float: left;
+	margin:20px;
+}
+
+table {
+	border: 1px solid orange;
+	background-color: #FFF2DE;
+	margin:30px;
+}
+td {
+	background-color:#FFF2DE;
+	border: 1px solid orange;
+	margin:20px;
+	padding:10px;
+}
+/*
+.blue {
+	background-color: blue;
+}*/

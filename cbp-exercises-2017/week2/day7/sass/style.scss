@@ -1,0 +1,44 @@
+$orange: #D79763;
+$light-orange:#FBCD8D;
+$dark-grey:#444444;
+@import 'shadows';
+
+.border {
+    border: 1px solid $orange;
+}
+.first {
+    a {
+        text-decoration: none;
+    }
+    p {
+        background-color: $light-orange;
+        color: $dark-grey;
+        @extend .border;
+    }
+    li {
+        list-style: none;
+    }
+}
+
+.shadowed {
+    box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.header {
+    img {
+        @extend .shadowed;
+    }
+}
+
+.second {
+    p{
+        @extend .z-depth-2;
+    }
+}
+
+@mixin nice_line_spacing($font-size) {
+    line-height: $font-size * 1.6;
+}
+
+.third p {
+    @include nice_line_spacing(16px);
+}

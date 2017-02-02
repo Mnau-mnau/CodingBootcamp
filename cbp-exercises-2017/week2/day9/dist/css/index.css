@@ -1,0 +1,42 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+body {
+  background-color: black;
+  color: white;
+  font-family: sans-serif;
+  min-width: 1000px;
+}
+@media screen and (max-width: 400px) {
+  body {
+    background-color: green;
+  }
+}
+@media screen and (min-width: 401px) and (max-width: 600px) {
+  body {
+    background-color: purple;
+  }
+}
+@media screen and (min-width: 601px) and (max-width: 800px) {
+  body {
+    background-color: blue;
+  }
+}
+@media screen and (min-width: 801px) and (max-width: 1000px) {
+  body {
+    background-color: coral;
+  }
+}
+h1 {
+  color: darkmagenta;
+}
+p {
+  font-family: serif;
+}
+.tip {
+  background-color: cornflowerblue;
+}
+
+/*# sourceMappingURL=index.css.map */

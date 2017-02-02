@@ -1,0 +1,45 @@
+body {
+/*	width: 1000px;*/
+	font-family: 'Fira Sans', sans-serif;
+	font-size: 0.8em;
+}
+
+.outer {
+	background: green url('gantz-1554954.jpg') no-repeat center center;
+	/*background-blend-mode: overlay;*/
+	padding: 3em;
+	position:relative;
+	width:80%;
+	min-height: 80vh;
+	height:auto;
+	margin-top: 10vh;
+}
+.inner {
+	padding: 1em;
+	background-color: rgba(255,0,0,0.3);
+	position: relative;
+	width:50%;
+	margin:10%;
+	color:#fff;
+}
+
+.experiment {
+
+}
+
+#smiling {
+	width:200px;
+	height:200px;
+	border: 1px solid white;
+	background: url('smiley.png') no-repeat center center;
+	background-size: 50%;
+}
+
+.nebula {
+	width:100%;
+	padding: 20px 20px;
+	background: url('nebula.jpg') no-repeat center center fixed;
+	background-size: cover;
+	font-weight: 500;
+	color:#fff;
+}
