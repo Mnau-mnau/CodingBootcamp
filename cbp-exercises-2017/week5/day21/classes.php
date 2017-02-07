@@ -35,36 +35,22 @@ class car {
     public function setColor($color){
         return $this->color = $color;
     }
-    public function __construct($manufacturer, $model, $color) { // not working, why?
+    public function __construct($manufacturer = null, $model = null, $color = null) { // not working, why?
         $this->manufacturer = $manufacturer;
         $this->model = $model;
         $this->color = $color;
     } // this method will be called upon construction of the object
 }
 
-class hybrid extends car {
-   public $has_battery_engine = true;
-   private $consumption_saving = null;
-   public function setConsumption($saving){
-       return $this->consumption_saving = $saving;
-   }
-   public function getConsumption(){
-       return $this->consumption;
-   }
-}
 
-$toytaPrius = new hybrid();
-$toytaPrius->setConsumption = 0.4;
+// $new_car = new car();
+// $new_car->setManufacturer('Honda');
+// $new_car->model = 'Accord Tourer';
+// $new_car->fuel_type = 'diesel';
+// $new_car->setColor('Primrose');
 
 
-$new_car = new car();
-$new_car->setManufacturer('Honda');
-$new_car->model = 'Accord Tourer';
-$new_car->fuel_type = 'diesel';
-$new_car->setColor('Primrose');
-
-
-$my_car = new car('Lamborghini', 'Diablo Spider','Magic magenta');
+$my_car = new car('Lamborghini', 'Diablo Spider','Magic magenta');// not working, wtf?
 
 ?>
 
@@ -75,14 +61,14 @@ $my_car = new car('Lamborghini', 'Diablo Spider','Magic magenta');
         <title>Objects</title>
     </head>
     <body>
-        <h1>
-        <?php echo $new_car->getManufacturer(); ?>
+        <!--<h1>
+        <?php //echo $new_car->getManufacturer(); ?>
         </h1>
         <h2>
-        <?php echo $new_car->getColor();?>
-        </h2>
-        <h2>
-        <?php echo $my_car->manufacturer.' '.$my_car->model.' '.$my_car->getColor();?>
+        <?php //echo $new_car->getColor();?>
+        </h2>-->
+         <h2>
+        <?php echo $my_car->getManufacturer();?>
         </h2>
     </body>
 </html>
