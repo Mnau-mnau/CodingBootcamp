@@ -17,11 +17,14 @@ class hybrid extends car {
         return $distance / $avgSpeed;
    }
 }
+class flower {
+    public $color = null;
+    public $stemLength = null;
+    public $hasLeaves = true;
+}
 
-
-
-$toytaPrius = new hybrid();
-$toytaPrius->setConsumption(0.4);
+$toytaPrius = new flower();
+$toytaPrius->hasLeaves = false;
 ?>
 
 <!DOCTYPE html>

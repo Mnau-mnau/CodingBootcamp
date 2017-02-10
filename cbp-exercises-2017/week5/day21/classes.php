@@ -12,7 +12,7 @@ class car {
     public $current_speed = 0;
 
     public function speed_up(){
-        $this -> current_spped += 10;
+        $this -> current_speed += 10;
     }
     public function brake(){
         $this -> current_speed -= 10;

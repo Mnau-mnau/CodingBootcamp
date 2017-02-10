@@ -1,0 +1,71 @@
+body {
+    font-family: 'Sansita', sans-serif;
+}
+.nm-main-table{
+    margin: 50px;
+    width: 600px;
+    padding: 20px;
+    background: -webkit-linear-gradient(left, rgba(178, 221, 255, 1) 0%, rgba(125, 185, 232, 0) 100%);
+    background: -o-linear-gradient(left, rgba(178, 221, 255, 1) 0%, rgba(125, 185, 232, 0) 100%);
+    background: linear-gradient(to right, rgba(178, 221, 255, 1) 0%, rgba(125, 185, 232, 0) 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b2ddff', endColorstr='#007db9e8', GradientType=1);
+}
+.nm-table {
+    margin: 50px;
+    width: 400px;
+    padding: 20px;
+    background: -webkit-linear-gradient(left, rgba(178, 221, 255, 1) 0%, rgba(125, 185, 232, 0) 100%);
+    background: -o-linear-gradient(left, rgba(178, 221, 255, 1) 0%, rgba(125, 185, 232, 0) 100%);
+    background: linear-gradient(to right, rgba(178, 221, 255, 1) 0%, rgba(125, 185, 232, 0) 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b2ddff', endColorstr='#007db9e8', GradientType=1);
+}
+
+.nm-th {
+    font-weight: 700;
+    background-color: white;
+    border: 2px solid black;
+}
+
+td {
+    padding: 5px 10px;
+}
+.nm-h1{
+    margin-left:50px;
+    font-weight: 700;
+}
+.nm-h2 {
+    font-weight: 700;
+}
+
+.nm-btn {
+    padding: 5px;
+    margin: 10px 0;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 150px;
+}
+
+.nm-form {
+    margin: 50px;
+    width: 400px;
+    padding: 20px;
+    background: -webkit-linear-gradient(left, rgba(178, 221, 255, 1) 0%, rgba(125, 185, 232, 0) 100%);
+    background: -o-linear-gradient(left, rgba(178, 221, 255, 1) 0%, rgba(125, 185, 232, 0) 100%);
+    background: linear-gradient(to right, rgba(178, 221, 255, 1) 0%, rgba(125, 185, 232, 0) 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b2ddff', endColorstr='#007db9e8', GradientType=1);
+}
+
+.nm-submit {
+    margin: 20px 0;
+}
+
+.nm-content{
+    width:400px;
+}

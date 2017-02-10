@@ -1,7 +1,7 @@
 <?php 
 if ($_POST) {
     require_once 'database.php';
-    $stmt = $db ->prepare('INSERT INFO albums(name, id_owner) VALUES (?, ?)');
+    $stmt = $db ->prepare('INSERT INTO albums(name, id_owner) VALUES (?, ?)');
     $stmt ->execute([$_POST['name'], $_POST['owner']]);
     var_dump($_POST);
 }
