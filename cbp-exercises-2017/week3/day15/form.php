@@ -76,10 +76,11 @@ $data = get_data($_GET['id']);
 foreach ($data as $name => $value) {
     echo "$name: $value<br>"
 }
-echo "<a href=form.php">back</a>";
+
+echo '<a href="form.php">back</a>';
 }else {
-$index = get_index ();
-foreach ($index as $id => name) {
-    echo "<a href=?id=$id>$name</a><br>";
+$index = get_index();
+foreach ($index as $id => $name) {
+    echo '<a href=?id="'.$id>$name</a><br>";
 }
 }

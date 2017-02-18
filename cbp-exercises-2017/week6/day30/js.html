@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div id="content" >There is something here</div>
+    
+
+    <script>
+        // var triangle = prompt("What size of triangle do you want to draw? 1, 2 or 3");
+
+        // var line="";
+        // for(var i =0; i<triangle; i++){
+        //     console.log(line);
+        //     line +='* ';
+        // }
+        //var age;
+        //do {age = prompt("What is your age?")}
+        //while (isNaN(age) || age<0 || age>200);
+
+        /*if(age < 18){alert("Go to school!");}
+        else if(age>60){alert("Go to Florida!");}
+        else{
+            var job = prompt("Do you have a job? yes or no");
+            if(job =='yes'|| job == 'y'){ alert("Go to work");}
+            else if(job =='no'|| job == 'n'){alert("Go to pub!");}
+            else {alert("Go back to school you analphabet!");}
+        }
+
+        let NumKids; 
+        do{ NumKids = prompt("How many children do you have?");}
+        while(isNaN(NumKids)||NumKids<=0 || NumKids>100);
+        let kidsNames;
+        if(NumKids>0){
+            kidsNames = prompt("What are their names?");
+        }
+        let kids=[];
+        kids = kidsNames.split(",");
+
+        kids.forEach(function(name){
+            alert('Say hi to '+name);
+        })*/
+        //alert("check what's written in the background");
+
+        var element = document.getElementById('content');
+        element.innerHTML= 'JavaScript adds something to the browser, bitch!';
+        console.log(element);
+        element.style.backgroundColor = 'red';
+        element.style.color = 'white';
+        element.style.width = '200px';
+        element.style.height = '200px';
+        element.style.display = 'block';
+
+        var newElement = document.createElement('div');
+
+        document.getElementById('content').appendChild(newElement);
+        newElement.style.backgroundColor = 'blue';
+        newElement.style.width = '200px';
+        newElement.style.height = '200px';
+        newElement.innerHTML = 'I am a new element!'
+        newElement.style.display = 'block';
+        newElement.style.marginTop = '200px';
+
+        function clickMe(){
+            element.style.marginLeft = '100px';
+        }
+        //element.onclick = clickMe();
+    </script>
+
+
+</body>
+</html>
